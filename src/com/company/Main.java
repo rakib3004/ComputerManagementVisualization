@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-double pie = 3.14159265358979;
+double pie = 3.1415926535897932384626;
         System.out.println(pie);
     }
 }
