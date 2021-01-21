@@ -4,39 +4,50 @@ import java.util.Random;
 
 public class PetersonSolution {
 
-    static int BUFFER_SIZE = 10;
+    static int BUFFER_SIZE = 15;
     static int in=0,out=0;
-    static int [] buffer = new int[10];
+    static int [] buffer = new int[15];
     static int  count=0;
     static int nextProduced=0;
     static int nextConsumed=0;
-    static int iProcess=0,jProcess=0;
+    static int iProcess=0,jProcess=1;
     static boolean [] checkSync = new boolean[2];
     static int processTurn=0;
     static  boolean iO = true;
+    static  boolean jO = true;
 
     public static void petersonSolution(){
-        while(iO==true){
 
+        Random random = new Random();
+
+        if(random.nextInt(2)==0){
+            iO=true;
+            jO=false;
+            }
+            else{
+            iO=false;
+            jO=true;
+            }
+
+
+        while(iO==true){
             checkSync[iProcess]=true;
                        processTurn = jProcess;
                        while (checkSync[jProcess]&&processTurn==jProcess){
-
                            consumer();
                            checkSync[iProcess]=false;
                            iO=false;
                        }
+                   }
 
-                       while (iO=true){
-                           checkSync[jProcess]=true;
-                           processTurn=iProcess;
-                           while (checkSync[iProcess]&&processTurn==iProcess){
-                               producer();;
-                               checkSync[jProcess]=false;
-                               iO=false;
-                           }
-                       }
-
+        while (jO=true){
+            checkSync[jProcess]=true;
+            processTurn=iProcess;
+            while (checkSync[iProcess]&&processTurn==iProcess){
+                producer();;
+                checkSync[jProcess]=false;
+                jO=false;
+            }
         }
 
 
@@ -50,7 +61,7 @@ public class PetersonSolution {
 
     public static void producer(){
         Random producerRandom = new Random();
-        while(count==BUFFER_SIZE);
+        while(count==BUFFER_SIZE) ;
 
         nextProduced = producerRandom.nextInt(70);
         buffer[in] = nextProduced;
@@ -72,18 +83,18 @@ public class PetersonSolution {
 
 
     public static void main(String[] args) {
-        Random random = new Random();
 
 
         int iterator;
-        int roundNumber = 1100;
+        int roundNumber = 15;
         for(iterator=0;iterator<roundNumber;iterator++){
-            if(random.nextInt(2)==0){
+        /*    if(random.nextInt(2)==0){
                 producer();
             }
             else{
                 consumer();
-            }
+            }*/
+            petersonSolution();
 
         }
 
