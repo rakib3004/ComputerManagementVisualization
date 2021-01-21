@@ -2,7 +2,8 @@ package SynchronizationProcess;
 
 import java.util.Random;
 
-public class PetersonSolution {
+public class Test_and_Set {
+
 
     static int BUFFER_SIZE = 15;
     static int in=0,out=0;
@@ -15,40 +16,47 @@ public class PetersonSolution {
     static int processTurn=0;
     static  boolean iO = true;
     static  boolean jO = true;
+static boolean lock =false;
 
-    public static void petersonSolution(){
+    public static   boolean testAndSetCheck(boolean target){
+    boolean rv = target;
+    target=true;
+
+        return rv;
+    }
+
+    synchronized  public static  void test_and_setImplementation(){
 
         Random random = new Random();
 
         if(random.nextInt(2)==0){
             iO=true;
             jO=false;
-            }
-            else{
+        }
+        else{
             iO=false;
             jO=true;
-            }
+        }
 
 
         while(iO==true){
+         while (testAndSetCheck(lock));
+         consumer();
 
-            checkSync[iProcess]=true;
-                       processTurn = jProcess;
-                       while (checkSync[jProcess]&&processTurn==jProcess);
-                           consumer();
-                           checkSync[iProcess]=false;
-                           iO=false;
+         lock = false;
 
-                   }
+                iO=false;
 
-        while (jO==true){
+        }
 
-            checkSync[jProcess]=true;
-            processTurn=iProcess;
-            while (checkSync[iProcess]&&processTurn==iProcess);
-                producer();;
-                checkSync[jProcess]=false;
-                jO=false;
+        while (jO=true){
+            while (testAndSetCheck(lock));
+            producer();
+
+            lock = false;
+
+
+            jO=false;
 
         }
 
@@ -96,14 +104,10 @@ public class PetersonSolution {
             else{
                 consumer();
             }*/
-            petersonSolution();
+            test_and_setImplementation();
 
         }
 
     }
-
-
-
-
 
 }
