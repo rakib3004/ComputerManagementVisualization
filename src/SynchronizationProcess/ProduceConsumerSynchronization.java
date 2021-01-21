@@ -1,6 +1,6 @@
 package SynchronizationProcess;
 import java.util.Random;
-public class Producer_Consumer_Synchronization {
+public class ProduceConsumerSynchronization {
 
 static int BUFFER_SIZE = 10;
     static int in=0,out=0;
