@@ -2,7 +2,7 @@ package Hackkerrank;
 
 import java.util.*;
 import java.security.*;
-public class Solution {
+public class DataTypeConversion {
     public static void main(String[] args) {
 
         DoNotTerminate.forbidExit();
