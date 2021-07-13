@@ -12,7 +12,7 @@ public class Overloading {
         NumericalAnalysis numericalAnalysis = new NumericalAnalysis();
 
 
-        System.out.println("What do you want???\n1.Interger Addition\n2.Double Addition");
+        System.out.println("What do you want???\n1.Interger Addition\n2.Double Addition\n");
         int getOpt;
         Scanner scanner = new Scanner(System.in);
         getOpt = scanner.nextInt();
