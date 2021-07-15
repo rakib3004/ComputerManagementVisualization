@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PieTest.iml" filepath="$PROJECT_DIR$/PieTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ComputerManagementVisualization.iml" filepath="$PROJECT_DIR$/ComputerManagementVisualization.iml" />
     </modules>
   </component>
 </project>
