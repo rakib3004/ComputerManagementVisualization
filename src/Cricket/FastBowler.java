@@ -1,9 +1,9 @@
 package Cricket;
 
 public class FastBowler extends Bowler {
-    int name;
+    String name;
 
-    public FastBowler(int name) {
+    public FastBowler(String name) {
         this.name = name;
     }
 
