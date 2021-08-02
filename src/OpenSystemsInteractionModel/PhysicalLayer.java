@@ -2,7 +2,6 @@ package OpenSystemsInteractionModel;
 
 public class PhysicalLayer {
 
-
     public void clientPhysicalLayer(){
 
     }
