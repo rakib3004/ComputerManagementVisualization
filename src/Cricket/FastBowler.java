@@ -1,6 +1,12 @@
 package Cricket;
 
 public class FastBowler extends Bowler {
+    int name;
+
+    public FastBowler(int name) {
+        this.name = name;
+    }
+
     int bowlingSpeed=0;
     int lowerSpeed=136;
     int upperSpeed=150;
