@@ -30,33 +30,49 @@ public class Match {
             if(bowlerType==1){
                 currentBowler = (int) (Math.random()*4);
                 for(jterator=1;jterator<=6;jterator++){
+
                     int ballNo = (iterator*6)+jterator;
+                    int currentSpeed=spinBowlers[currentBowler].setBowlingSpeed(spinBowlers[currentBowler].upperSpeed,
+                            spinBowlers[currentBowler].lowerSpeed);
                     System.out.println(ballNo+" th ball, " +
-                            spinBowlers[currentBowler].name+" at ," +
-                            spinBowlers[currentBowler].setBowlingSpeed(spinBowlers[currentBowler].upperSpeed,
-                            spinBowlers[currentBowler].lowerSpeed)+" Km/h");
+                            spinBowlers[currentBowler].name+" at ," +currentSpeed
+                            +" Km/h");
+                   Double floatSpeed = new Double(currentSpeed);
+                    spinBowlers[currentBowler].totalSpeed+=floatSpeed;
+
                 }
+                spinBowlers[currentBowler].totalOver++;
 
             }
             else  if(bowlerType==2){
                 currentBowler = (int) (Math.random()*2);
                 for(jterator=1;jterator<=6;jterator++){
                     int ballNo = (iterator*6)+jterator;
+                    int currentSpeed=fastMediumBowlers[currentBowler].setBowlingSpeed(fastMediumBowlers[currentBowler].upperSpeed,
+                            fastMediumBowlers[currentBowler].lowerSpeed);
                     System.out.println(ballNo+" th ball, " +
                             fastMediumBowlers[currentBowler].name+" at ," +
-                            fastMediumBowlers[currentBowler].setBowlingSpeed(fastMediumBowlers[currentBowler].upperSpeed,
-                                    fastMediumBowlers[currentBowler].lowerSpeed)+" Km/h");
+                            currentSpeed+" Km/h");
+                    Double floatSpeed = new Double(currentSpeed);
+                    spinBowlers[currentBowler].totalSpeed+=floatSpeed;
                 }
+                fastMediumBowlers[currentBowler].totalOver++;
+
             }
             else  if(bowlerType==3){
                 currentBowler = (int) (Math.random()*3);
                 for(jterator=1;jterator<=6;jterator++){
                     int ballNo = (iterator*6)+jterator;
+                    int currentSpeed=fastBowlers[currentBowler].setBowlingSpeed(fastBowlers[currentBowler].upperSpeed,
+                            fastBowlers[currentBowler].lowerSpeed);
                     System.out.println(ballNo+" th ball, " +
-                            fastBowlers[currentBowler].name+" at ," +
-                            fastBowlers[currentBowler].setBowlingSpeed(fastBowlers[currentBowler].upperSpeed,
-                                    fastBowlers[currentBowler].lowerSpeed)+" Km/h");
+                            fastBowlers[currentBowler].name+" at ," +currentSpeed
+                            +" Km/h");
+                    Double floatSpeed = new Double(currentSpeed);
+                    spinBowlers[currentBowler].totalSpeed+=floatSpeed;
                 }
+                fastBowlers[currentBowler].totalOver++;
+
             }
 
 
