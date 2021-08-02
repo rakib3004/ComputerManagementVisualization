@@ -12,7 +12,7 @@ public class Match {
         FastMediumBowler [] fastMediumBowlers = new FastMediumBowler[2];
 
         fastMediumBowlers[0] = new FastMediumBowler("Mohammad Saifuddin");
-        fastMediumBowlers[0] = new FastMediumBowler("Sauyma Sarkar");
+        fastMediumBowlers[1] = new FastMediumBowler("Sauyma Sarkar");
 
         FastBowler [] fastBowlers = new FastBowler[3];
 
