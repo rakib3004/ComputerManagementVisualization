@@ -44,8 +44,8 @@ public class Match {
                     int ballNo = (iterator*6)+jterator;
                     System.out.println(ballNo+" th ball, " +
                             fastMediumBowlers[currentBowler].name+" at ," +
-                            spinBowlers[currentBowler].setBowlingSpeed(spinBowlers[currentBowler].upperSpeed,
-                                    spinBowlers[currentBowler].lowerSpeed)+" Km/h");
+                            fastMediumBowlers[currentBowler].setBowlingSpeed(fastMediumBowlers[currentBowler].upperSpeed,
+                                    fastMediumBowlers[currentBowler].lowerSpeed)+" Km/h");
                 }
             }
             else  if(bowlerType==3){
@@ -53,9 +53,9 @@ public class Match {
                 for(jterator=1;jterator<=6;jterator++){
                     int ballNo = (iterator*6)+jterator;
                     System.out.println(ballNo+" th ball, " +
-                            spinBowlers[currentBowler].name+" at ," +
-                            spinBowlers[currentBowler].setBowlingSpeed(spinBowlers[currentBowler].upperSpeed,
-                                    spinBowlers[currentBowler].lowerSpeed)+" Km/h");
+                            fastBowlers[currentBowler].name+" at ," +
+                            fastBowlers[currentBowler].setBowlingSpeed(fastBowlers[currentBowler].upperSpeed,
+                                    fastBowlers[currentBowler].lowerSpeed)+" Km/h");
                 }
             }
 
