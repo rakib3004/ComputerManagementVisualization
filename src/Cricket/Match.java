@@ -78,5 +78,8 @@ public class Match {
 
         }
 
+        BowlingAnalysis bowlingAnalysis = new BowlingAnalysis();
+        bowlingAnalysis.BowlerStatistics();
+
     }
 }
