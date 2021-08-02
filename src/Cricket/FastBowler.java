@@ -6,8 +6,6 @@ public class FastBowler extends Bowler {
     public FastBowler(String name) {
         this.name = name;
     }
-
-    int bowlingSpeed=0;
     int lowerSpeed=136;
     int upperSpeed=150;
     public int setBowlingSpeed() {

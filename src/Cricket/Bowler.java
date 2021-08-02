@@ -1,7 +1,7 @@
 package Cricket;
 
 public class Bowler {
-    int bowlingSpeed=0;
+    int totalOver=0;
     int lowerSpeed=70;
     int upperSpeed=150;
   public  int setBowlingSpeed(int upperSpeed, int lowerSpeed){
