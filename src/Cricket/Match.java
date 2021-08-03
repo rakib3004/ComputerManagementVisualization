@@ -73,13 +73,7 @@ public class Match {
                 currentBowler = (int) (Math.random()*fastMediumBowlersNumber);
                 for(jterator=1;jterator<=6;jterator++){
                     int ballNo = (iterator*6)+jterator;
-                    int currentSpeed=fastMediumBowlers[currentBowler].setBowlingSpeed(fastMediumBowlers[currentBowler].upperSpeed,
-                            fastMediumBowlers[currentBowler].lowerSpeed);
-                    System.out.println(ballNo+" th ball, " +
-                            fastMediumBowlers[currentBowler].name+" at ," +
-                            currentSpeed+" Km/h");
-                    Double floatSpeed = new Double(currentSpeed);
-                    fastMediumBowlers[currentBowler].totalSpeed+=floatSpeed;
+                    scoreUpdate.bowlingUpdate(fastMediumBowlers[currentBowler],iterator,jterator);
                 }
                 fastMediumBowlers[currentBowler].totalOver++;
 
@@ -90,7 +84,7 @@ public class Match {
                     int ballNo = (iterator*6)+jterator;
 
 
-
+                    scoreUpdate.bowlingUpdate(fastBowlers[currentBowler],iterator,jterator);
 
                 }
                 fastBowlers[currentBowler].totalOver++;
