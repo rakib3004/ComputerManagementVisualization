@@ -10,13 +10,17 @@ public class Match {
         int fastBowlersNumber;
         int bowlerTypeNumber;
 
-
-
+// initialize data
          OverNumbers=50;
          spinBowlersNumber=4;
          fastMediumBowlersNumber=2;
          fastBowlersNumber=3;
          bowlerTypeNumber=3;
+
+         // classify every over update in UpdateScore Class
+
+        ScoreUpdate scoreUpdate = new ScoreUpdate();
+
 
 
          // spinners listing
@@ -58,13 +62,8 @@ public class Match {
                 for(jterator=1;jterator<=6;jterator++){
 
                     int ballNo = (iterator*6)+jterator;
-                    int currentSpeed=spinBowlers[currentBowler].setBowlingSpeed(spinBowlers[currentBowler].upperSpeed,
-                            spinBowlers[currentBowler].lowerSpeed);
-                    System.out.println(ballNo+" th ball, " +
-                            spinBowlers[currentBowler].name+" at ," +currentSpeed
-                            +" Km/h");
-                   Double floatSpeed = new Double(currentSpeed);
-                    spinBowlers[currentBowler].totalSpeed+=floatSpeed;
+                    scoreUpdate.bowlingUpdate(spinBowlers[currentBowler],iterator,jterator);
+
 
                 }
                 spinBowlers[currentBowler].totalOver++;
@@ -89,13 +88,10 @@ public class Match {
                 currentBowler = (int) (Math.random()*fastBowlersNumber);
                 for(jterator=1;jterator<=6;jterator++){
                     int ballNo = (iterator*6)+jterator;
-                    int currentSpeed=fastBowlers[currentBowler].setBowlingSpeed(fastBowlers[currentBowler].upperSpeed,
-                            fastBowlers[currentBowler].lowerSpeed);
-                    System.out.println(ballNo+" th ball, " +
-                            fastBowlers[currentBowler].name+" at ," +currentSpeed
-                            +" Km/h");
-                    Double floatSpeed = new Double(currentSpeed);
-                    fastBowlers[currentBowler].totalSpeed+=floatSpeed;
+
+
+
+
                 }
                 fastBowlers[currentBowler].totalOver++;
             }
