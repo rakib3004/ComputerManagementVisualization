@@ -5,8 +5,8 @@ public class SpinBowler extends Bowler {
 
     public SpinBowler(String name){ this.name = name; }
 
-    int lowerSpeed=136;
-    int upperSpeed=150;
+    int lowerSpeed=70;
+    int upperSpeed=115;
     public int setBowlingSpeed() {
         return super.setBowlingSpeed(upperSpeed, lowerSpeed);
     }
