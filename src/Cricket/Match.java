@@ -3,18 +3,41 @@ package Cricket;
 public class Match {
 
     public static void main(String[] args) {
-        SpinBowler [] spinBowlers = new SpinBowler[4];
+
+        int OverNumbers;
+        int spinBowlersNumber;
+        int fastMediumBowlersNumber;
+        int fastBowlersNumber;
+        int bowlerTypeNumber;
+
+
+
+         OverNumbers=50;
+         spinBowlersNumber=4;
+         fastMediumBowlersNumber=2;
+         fastBowlersNumber=3;
+         bowlerTypeNumber=3;
+
+
+         // spinners listing
+
+        SpinBowler [] spinBowlers = new SpinBowler[spinBowlersNumber];
         spinBowlers[0] = new SpinBowler("Shakib Al Hasan");
         spinBowlers[1] = new SpinBowler("Mahmudullah Riyad");
         spinBowlers[2] = new SpinBowler("Mehedi Miraz");
         spinBowlers[3] = new SpinBowler("Taijul Islam");
 
-        FastMediumBowler [] fastMediumBowlers = new FastMediumBowler[2];
+        // medium fast bowlers listing
+
+        FastMediumBowler [] fastMediumBowlers = new FastMediumBowler[fastMediumBowlersNumber];
 
         fastMediumBowlers[0] = new FastMediumBowler("Mohammad Saifuddin");
         fastMediumBowlers[1] = new FastMediumBowler("Sauyma Sarkar");
 
-        FastBowler [] fastBowlers = new FastBowler[3];
+        // fast bowlers listing
+
+
+        FastBowler [] fastBowlers = new FastBowler[fastBowlersNumber];
 
         fastBowlers[0] = new FastBowler("Mustafizur Rahman");
         fastBowlers[1] = new FastBowler("Rubel Hossain");
@@ -23,12 +46,15 @@ public class Match {
         int iterator=0;
         int jterator=0;
 
-        for(iterator=0;iterator<50;iterator++){
 
-            int bowlerType = (int) (Math.random()*3)+1;
+        // Start Over
+
+        for(iterator=0;iterator<OverNumbers;iterator++){
+
+            int bowlerType = (int) (Math.random()*bowlerTypeNumber)+1;
             int currentBowler=0;
             if(bowlerType==1){
-                currentBowler = (int) (Math.random()*4);
+                currentBowler = (int) (Math.random()*spinBowlersNumber);
                 for(jterator=1;jterator<=6;jterator++){
 
                     int ballNo = (iterator*6)+jterator;
@@ -45,7 +71,7 @@ public class Match {
 
             }
             else  if(bowlerType==2){
-                currentBowler = (int) (Math.random()*2);
+                currentBowler = (int) (Math.random()*fastMediumBowlersNumber);
                 for(jterator=1;jterator<=6;jterator++){
                     int ballNo = (iterator*6)+jterator;
                     int currentSpeed=fastMediumBowlers[currentBowler].setBowlingSpeed(fastMediumBowlers[currentBowler].upperSpeed,
@@ -54,13 +80,13 @@ public class Match {
                             fastMediumBowlers[currentBowler].name+" at ," +
                             currentSpeed+" Km/h");
                     Double floatSpeed = new Double(currentSpeed);
-                    spinBowlers[currentBowler].totalSpeed+=floatSpeed;
+                    fastMediumBowlers[currentBowler].totalSpeed+=floatSpeed;
                 }
                 fastMediumBowlers[currentBowler].totalOver++;
 
             }
             else  if(bowlerType==3){
-                currentBowler = (int) (Math.random()*3);
+                currentBowler = (int) (Math.random()*fastBowlersNumber);
                 for(jterator=1;jterator<=6;jterator++){
                     int ballNo = (iterator*6)+jterator;
                     int currentSpeed=fastBowlers[currentBowler].setBowlingSpeed(fastBowlers[currentBowler].upperSpeed,
@@ -69,17 +95,15 @@ public class Match {
                             fastBowlers[currentBowler].name+" at ," +currentSpeed
                             +" Km/h");
                     Double floatSpeed = new Double(currentSpeed);
-                    spinBowlers[currentBowler].totalSpeed+=floatSpeed;
+                    fastBowlers[currentBowler].totalSpeed+=floatSpeed;
                 }
                 fastBowlers[currentBowler].totalOver++;
-
             }
-
 
         }
 
         BowlingAnalysis bowlingAnalysis = new BowlingAnalysis();
-        bowlingAnalysis.BowlerStatistics();
+        bowlingAnalysis.BowlerStatistics(spinBowlers,fastMediumBowlers,fastBowlers,spinBowlersNumber,fastMediumBowlersNumber,fastBowlersNumber);
 
     }
 }
