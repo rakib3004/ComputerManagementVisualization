@@ -9,6 +9,9 @@ public class BowlingAnalysis {
 
 
         int iterator;
+        System.out.println();
+        System.out.println("-------------------------------------------");
+        System.out.println();
         System.out.println("Bowlers Bowling Analysis: ");
 
         for(iterator=0;iterator<spinBowlersNumber;iterator++){

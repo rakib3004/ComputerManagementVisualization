@@ -1,19 +1,17 @@
 package Cricket;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 
 public class MatchCounterClass {
 
-    public int getMatchNumbers(){
+    public static int getMatchNumbers(){
 
-        File matchFile = new File("/Cricket/MatchCounter.txt");
+        File matchFile = new File("MatchCounter.txt");
         char [] matchNumberChar = new char[6];
         try {
             FileReader fileReader = new FileReader(matchFile);
             fileReader.read(matchNumberChar);
+            fileReader.close();
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -28,9 +26,28 @@ public class MatchCounterClass {
         }
 
         int mNumber = Integer.parseInt(matchNum);
+        mNumber++;
 
+        System.out.println(mNumber);
 
-        return 1;
+        FileWriter fileWriter = null;
+        try {
+            fileWriter = new FileWriter(matchFile);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            fileWriter.write(String.valueOf(mNumber));
+            fileWriter.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        return mNumber;
+    }
+
+    public static void main(String[] args) {
+        getMatchNumbers();
     }
 
 }
