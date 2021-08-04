@@ -4,7 +4,7 @@ import java.io.*;
 
 public class MatchCounterClass {
 
-    public static int getMatchNumbers(){
+    public  int getMatchNumbers(){
 
         File matchFile = new File("MatchCounter.txt");
         char [] matchNumberChar = new char[6];
@@ -25,10 +25,10 @@ public class MatchCounterClass {
             matchNum= matchNum+matchNumberChar[iter];
         }
 
-        int mNumber = Integer.parseInt(matchNum);
-        mNumber++;
+        int finalMatchNumber = Integer.parseInt(matchNum);
+        finalMatchNumber++;
 
-        System.out.println(mNumber);
+      //  System.out.println(finalMatchNumber);
 
         FileWriter fileWriter = null;
         try {
@@ -37,17 +37,17 @@ public class MatchCounterClass {
             e.printStackTrace();
         }
         try {
-            fileWriter.write(String.valueOf(mNumber));
+            fileWriter.write(String.valueOf(finalMatchNumber));
             fileWriter.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
 
-        return mNumber;
+        return finalMatchNumber;
     }
 
     public static void main(String[] args) {
-        getMatchNumbers();
+       // getMatchNumbers();
     }
 
 }
