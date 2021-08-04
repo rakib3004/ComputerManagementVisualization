@@ -1,0 +1,366 @@
+Bangladesh National Team Bowlers Bowling Speed Summary
+---------------------------------------------------
+Match No:1, Thu 05.08.2021
+
+---------------------------------------------------
+Bowlers Bowling Analysis: 
+Name : Shakib Al Hasan
+Total Overs: 6, Avg Speed: 92.38888888888889
+Name : Mahmudullah Riyad
+Total Overs: 8, Avg Speed: 88.14583333333333
+Name : Mehedi Miraz
+Total Overs: 4, Avg Speed: 91.5
+Name : Taijul Islam
+Total Overs: 5, Avg Speed: 89.13333333333334
+Name : Mohammad Saifuddin
+Total Overs: 6, Avg Speed: 127.02777777777777
+Name : Sauyma Sarkar
+Total Overs: 5, Avg Speed: 127.46666666666667
+Name : Mustafizur Rahman
+Total Overs: 5, Avg Speed: 140.06666666666666
+Name : Rubel Hossain
+Total Overs: 5, Avg Speed: 140.16666666666666
+Name : Taskin Ahmed
+Total Overs: 6, Avg Speed: 139.86111111111111
+
+---------------------------------------------------
+
+
+Match No:2, Thu 05.08.2021
+
+---------------------------------------------------
+Bowlers Bowling Analysis: 
+Name : Shakib Al Hasan
+Total Overs: 6, Avg Speed: 88.52777777777777
+Name : Mahmudullah Riyad
+Total Overs: 2, Avg Speed: 88.0
+Name : Mehedi Miraz
+Total Overs: 10, Avg Speed: 90.21666666666667
+Name : Taijul Islam
+Total Overs: 6, Avg Speed: 94.11111111111111
+Name : Mohammad Saifuddin
+Total Overs: 5, Avg Speed: 128.26666666666668
+Name : Sauyma Sarkar
+Total Overs: 4, Avg Speed: 127.75
+Name : Mustafizur Rahman
+Total Overs: 8, Avg Speed: 140.875
+Name : Rubel Hossain
+Total Overs: 5, Avg Speed: 139.03333333333333
+Name : Taskin Ahmed
+Total Overs: 4, Avg Speed: 140.08333333333334
+
+---------------------------------------------------
+
+
+Match No:3, Thu 05.08.2021
+
+---------------------------------------------------
+Bowlers Bowling Analysis: 
+Name : Shakib Al Hasan
+Total Overs: 6, Avg Speed: 92.30555555555556
+Name : Mahmudullah Riyad
+Total Overs: 0, Avg Speed: NaN
+Name : Mehedi Miraz
+Total Overs: 5, Avg Speed: 94.76666666666667
+Name : Taijul Islam
+Total Overs: 7, Avg Speed: 91.19047619047619
+Name : Mohammad Saifuddin
+Total Overs: 8, Avg Speed: 126.54166666666667
+Name : Sauyma Sarkar
+Total Overs: 8, Avg Speed: 127.9375
+Name : Mustafizur Rahman
+Total Overs: 5, Avg Speed: 137.7
+Name : Rubel Hossain
+Total Overs: 6, Avg Speed: 141.02777777777777
+Name : Taskin Ahmed
+Total Overs: 5, Avg Speed: 138.83333333333334
+
+---------------------------------------------------
+
+
+Match No:4, Thu 05.08.2021
+
+---------------------------------------------------
+Bowlers Bowling Analysis: 
+Name : Shakib Al Hasan
+Total Overs: 1, Avg Speed: 89.83333333333333
+Name : Mahmudullah Riyad
+Total Overs: 5, Avg Speed: 94.33333333333333
+Name : Mehedi Miraz
+Total Overs: 3, Avg Speed: 91.66666666666667
+Name : Taijul Islam
+Total Overs: 5, Avg Speed: 92.96666666666667
+Name : Mohammad Saifuddin
+Total Overs: 10, Avg Speed: 127.53333333333333
+Name : Sauyma Sarkar
+Total Overs: 9, Avg Speed: 127.4074074074074
+Name : Mustafizur Rahman
+Total Overs: 8, Avg Speed: 140.16666666666666
+Name : Rubel Hossain
+Total Overs: 4, Avg Speed: 141.33333333333334
+Name : Taskin Ahmed
+Total Overs: 5, Avg Speed: 139.33333333333334
+
+---------------------------------------------------
+
+
+Match No:5, Thu 05.08.2021
+
+---------------------------------------------------
+Bowlers Bowling Analysis: 
+Name : Shakib Al Hasan
+Total Overs: 5, Avg Speed: 97.23333333333333
+Name : Mahmudullah Riyad
+Total Overs: 7, Avg Speed: 89.73809523809524
+Name : Mehedi Miraz
+Total Overs: 4, Avg Speed: 95.45833333333333
+Name : Taijul Islam
+Total Overs: 4, Avg Speed: 89.45833333333333
+Name : Mohammad Saifuddin
+Total Overs: 5, Avg Speed: 125.86666666666666
+Name : Sauyma Sarkar
+Total Overs: 8, Avg Speed: 126.9375
+Name : Mustafizur Rahman
+Total Overs: 7, Avg Speed: 141.38095238095238
+Name : Rubel Hossain
+Total Overs: 8, Avg Speed: 139.35416666666666
+Name : Taskin Ahmed
+Total Overs: 2, Avg Speed: 138.25
+
+---------------------------------------------------
+
+
+Match No:6, Thu 05.08.2021
+
+---------------------------------------------------
+Bowlers Bowling Analysis: 
+Name : Shakib Al Hasan
+Total Overs: 5, Avg Speed: 89.56666666666666
+Name : Mahmudullah Riyad
+Total Overs: 5, Avg Speed: 93.03333333333333
+Name : Mehedi Miraz
+Total Overs: 3, Avg Speed: 89.72222222222223
+Name : Taijul Islam
+Total Overs: 7, Avg Speed: 93.33333333333333
+Name : Mohammad Saifuddin
+Total Overs: 7, Avg Speed: 126.5952380952381
+Name : Sauyma Sarkar
+Total Overs: 8, Avg Speed: 126.29166666666667
+Name : Mustafizur Rahman
+Total Overs: 7, Avg Speed: 139.16666666666666
+Name : Rubel Hossain
+Total Overs: 4, Avg Speed: 139.625
+Name : Taskin Ahmed
+Total Overs: 4, Avg Speed: 138.91666666666666
+
+---------------------------------------------------
+
+
+Match No:7, Thu 05.08.2021
+
+---------------------------------------------------
+Bowlers Bowling Analysis: 
+Name : Shakib Al Hasan
+Total Overs: 6, Avg Speed: 100.02777777777777
+Name : Mahmudullah Riyad
+Total Overs: 4, Avg Speed: 89.75
+Name : Mehedi Miraz
+Total Overs: 8, Avg Speed: 91.75
+Name : Taijul Islam
+Total Overs: 9, Avg Speed: 94.37037037037037
+Name : Mohammad Saifuddin
+Total Overs: 9, Avg Speed: 126.96296296296296
+Name : Sauyma Sarkar
+Total Overs: 7, Avg Speed: 126.85714285714286
+Name : Mustafizur Rahman
+Total Overs: 2, Avg Speed: 142.58333333333334
+Name : Rubel Hossain
+Total Overs: 2, Avg Speed: 138.66666666666666
+Name : Taskin Ahmed
+Total Overs: 3, Avg Speed: 139.0
+
+---------------------------------------------------
+
+
+Match No:8, Thu 05.08.2021
+
+---------------------------------------------------
+Bowlers Bowling Analysis: 
+Name : Shakib Al Hasan
+Total Overs: 6, Avg Speed: 90.08333333333333
+Name : Mahmudullah Riyad
+Total Overs: 4, Avg Speed: 93.375
+Name : Mehedi Miraz
+Total Overs: 5, Avg Speed: 90.2
+Name : Taijul Islam
+Total Overs: 4, Avg Speed: 88.16666666666667
+Name : Mohammad Saifuddin
+Total Overs: 10, Avg Speed: 126.91666666666667
+Name : Sauyma Sarkar
+Total Overs: 10, Avg Speed: 126.25
+Name : Mustafizur Rahman
+Total Overs: 1, Avg Speed: 140.0
+Name : Rubel Hossain
+Total Overs: 3, Avg Speed: 138.22222222222223
+Name : Taskin Ahmed
+Total Overs: 7, Avg Speed: 138.78571428571428
+
+---------------------------------------------------
+
+
+Match No:9, Thu 05.08.2021
+
+---------------------------------------------------
+Bowlers Bowling Analysis: 
+Name : Shakib Al Hasan
+Total Overs: 3, Avg Speed: 103.27777777777777
+Name : Mahmudullah Riyad
+Total Overs: 6, Avg Speed: 94.33333333333333
+Name : Mehedi Miraz
+Total Overs: 1, Avg Speed: 94.66666666666667
+Name : Taijul Islam
+Total Overs: 1, Avg Speed: 83.0
+Name : Mohammad Saifuddin
+Total Overs: 10, Avg Speed: 127.68333333333334
+Name : Sauyma Sarkar
+Total Overs: 10, Avg Speed: 126.63333333333334
+Name : Mustafizur Rahman
+Total Overs: 6, Avg Speed: 139.41666666666666
+Name : Rubel Hossain
+Total Overs: 8, Avg Speed: 139.60416666666666
+Name : Taskin Ahmed
+Total Overs: 5, Avg Speed: 140.43333333333334
+
+---------------------------------------------------
+
+
+Match No:10, Thu 05.08.2021
+
+---------------------------------------------------
+Bowlers Bowling Analysis: 
+Name : Shakib Al Hasan
+Total Overs: 5, Avg Speed: 92.16666666666667
+Name : Mahmudullah Riyad
+Total Overs: 6, Avg Speed: 95.38888888888889
+Name : Mehedi Miraz
+Total Overs: 5, Avg Speed: 94.93333333333334
+Name : Taijul Islam
+Total Overs: 4, Avg Speed: 94.29166666666667
+Name : Mohammad Saifuddin
+Total Overs: 11, Avg Speed: 126.5
+Name : Sauyma Sarkar
+Total Overs: 10, Avg Speed: 127.28333333333333
+Name : Mustafizur Rahman
+Total Overs: 2, Avg Speed: 140.5
+Name : Rubel Hossain
+Total Overs: 5, Avg Speed: 140.53333333333333
+Name : Taskin Ahmed
+Total Overs: 2, Avg Speed: 138.0
+
+---------------------------------------------------
+
+
+Match No:11, Thu 05.08.2021
+
+---------------------------------------------------
+Bowlers Bowling Analysis: 
+Name : Shakib Al Hasan
+Total Overs: 1, Avg Speed: 98.83333333333333
+Name : Mahmudullah Riyad
+Total Overs: 3, Avg Speed: 92.88888888888889
+Name : Mehedi Miraz
+Total Overs: 2, Avg Speed: 93.08333333333333
+Name : Taijul Islam
+Total Overs: 7, Avg Speed: 91.23809523809524
+Name : Mohammad Saifuddin
+Total Overs: 11, Avg Speed: 127.10606060606061
+Name : Sauyma Sarkar
+Total Overs: 7, Avg Speed: 126.0952380952381
+Name : Mustafizur Rahman
+Total Overs: 9, Avg Speed: 139.55555555555554
+Name : Rubel Hossain
+Total Overs: 3, Avg Speed: 139.33333333333334
+Name : Taskin Ahmed
+Total Overs: 7, Avg Speed: 140.6904761904762
+
+---------------------------------------------------
+
+
+Match No:12, Thu 05.08.2021
+
+---------------------------------------------------
+Bowlers Bowling Analysis: 
+Name : Shakib Al Hasan
+Total Overs: 7, Avg Speed: 91.69047619047619
+Name : Mahmudullah Riyad
+Total Overs: 4, Avg Speed: 94.29166666666667
+Name : Mehedi Miraz
+Total Overs: 6, Avg Speed: 93.88888888888889
+Name : Taijul Islam
+Total Overs: 2, Avg Speed: 92.25
+Name : Mohammad Saifuddin
+Total Overs: 9, Avg Speed: 126.11111111111111
+Name : Sauyma Sarkar
+Total Overs: 9, Avg Speed: 126.81481481481481
+Name : Mustafizur Rahman
+Total Overs: 5, Avg Speed: 137.96666666666667
+Name : Rubel Hossain
+Total Overs: 2, Avg Speed: 140.25
+Name : Taskin Ahmed
+Total Overs: 6, Avg Speed: 140.25
+
+---------------------------------------------------
+
+
+Match No:13, Thu 05.08.2021
+
+---------------------------------------------------
+Bowlers Bowling Analysis: 
+Name : Shakib Al Hasan
+Total Overs: 7, Avg Speed: 94.66666666666667
+Name : Mahmudullah Riyad
+Total Overs: 3, Avg Speed: 86.77777777777777
+Name : Mehedi Miraz
+Total Overs: 3, Avg Speed: 89.77777777777777
+Name : Taijul Islam
+Total Overs: 5, Avg Speed: 88.33333333333333
+Name : Mohammad Saifuddin
+Total Overs: 10, Avg Speed: 126.96666666666667
+Name : Sauyma Sarkar
+Total Overs: 7, Avg Speed: 126.11904761904762
+Name : Mustafizur Rahman
+Total Overs: 3, Avg Speed: 140.16666666666666
+Name : Rubel Hossain
+Total Overs: 4, Avg Speed: 140.625
+Name : Taskin Ahmed
+Total Overs: 8, Avg Speed: 139.72916666666666
+
+---------------------------------------------------
+
+
+Match No:14, Thu 05.08.2021
+
+---------------------------------------------------
+Bowlers Bowling Analysis: 
+Name : Shakib Al Hasan
+Total Overs: 0, Avg Speed: NaN
+Name : Mahmudullah Riyad
+Total Overs: 5, Avg Speed: 95.6
+Name : Mehedi Miraz
+Total Overs: 5, Avg Speed: 95.06666666666666
+Name : Taijul Islam
+Total Overs: 5, Avg Speed: 94.23333333333333
+Name : Mohammad Saifuddin
+Total Overs: 10, Avg Speed: 126.4
+Name : Sauyma Sarkar
+Total Overs: 8, Avg Speed: 127.02083333333333
+Name : Mustafizur Rahman
+Total Overs: 3, Avg Speed: 140.88888888888889
+Name : Rubel Hossain
+Total Overs: 8, Avg Speed: 140.45833333333334
+Name : Taskin Ahmed
+Total Overs: 6, Avg Speed: 139.94444444444446
+
+---------------------------------------------------
+
+
