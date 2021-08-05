@@ -364,3 +364,29 @@ Total Overs: 6, Avg Speed: 139.94444444444446
 ---------------------------------------------------
 
 
+Match No:15, Thu 05.08.2021
+
+---------------------------------------------------
+Bowlers Bowling Analysis: 
+Name : Shakib Al Hasan
+Total Overs: 6, Avg Speed: 95.05555555555556
+Name : Mahmudullah Riyad
+Total Overs: 2, Avg Speed: 93.41666666666667
+Name : Mehedi Miraz
+Total Overs: 5, Avg Speed: 92.3
+Name : Taijul Islam
+Total Overs: 6, Avg Speed: 93.38888888888889
+Name : Mohammad Saifuddin
+Total Overs: 9, Avg Speed: 127.66666666666667
+Name : Sauyma Sarkar
+Total Overs: 8, Avg Speed: 126.95833333333333
+Name : Mustafizur Rahman
+Total Overs: 7, Avg Speed: 140.1904761904762
+Name : Rubel Hossain
+Total Overs: 5, Avg Speed: 137.93333333333334
+Name : Taskin Ahmed
+Total Overs: 2, Avg Speed: 141.75
+
+---------------------------------------------------
+
+
