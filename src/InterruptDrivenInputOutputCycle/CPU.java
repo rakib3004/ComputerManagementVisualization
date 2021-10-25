@@ -6,7 +6,7 @@ public class CPU {
         InputOutputController inputOutputController = new InputOutputController();
 
         System.out.println("1.Device Driver Ready to initiate I/O");
-        inputOutputController.initiatesInputOutput();
+    //    inputOutputController.initiatesInputOutput();
         System.out.println();
         System.out.println("CPU interrupts between instruction for checking");
         System.out.println();
