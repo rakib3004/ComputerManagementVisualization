@@ -24,7 +24,7 @@ public class WeatherData implements Subject {
             this.observers.remove(i);
         }
     }
-
+git a
     @Override
     public void notifyObservers() {
         for (Observer observer : observers) {
