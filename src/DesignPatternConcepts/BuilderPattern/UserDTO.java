@@ -1,4 +1,10 @@
 package DesignPatternConcepts.BuilderPattern;
 
-public class UserDTO {
+public interface UserDTO {
+
+    String getName();
+
+    String getAddress();
+
+    String getAge();
 }
