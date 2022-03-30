@@ -1,4 +1,5 @@
 package DesignPatternConcepts.ObserverPattern;
 
-public class Display {
+public interface Display {
+    public void display();
 }
