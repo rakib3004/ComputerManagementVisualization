@@ -16,7 +16,7 @@ public class Client {
 
     private static UserDTO directBuild(UserDTOBuilder builder, User user) {
         return builder.withFirstName(user.getFirstName()).withLastName(user.getLastName())
-                .withAddress(user.getAddress())
+                .withAddress(user.getDepartment())
                 .withBirthday(user.getBirthday())
                 .build();
     }
@@ -26,13 +26,13 @@ public class Client {
         user.setBirthday(LocalDate.of(1979, 07, 6));
         user.setFirstName("Pedram");
         user.setLastName("Karevan");
-        Address address = new Address();
-        address.setHouseNumber("100");
-        address.setStreet("State Street");
-        address.setCity("Tehran");
-        address.setState("Iran");
-        address.setZipcode("2375");
-        user.setAddress(address);
+        Department department = new Department();
+        department.setDepartmentAddress("100");
+        department.setDepartmentBuildingName("State Street");
+        department.setTotalClassNumber("Tehran");
+        department.setDepartmentDegreeName("Iran");
+        department.setDepartmentBuildingName("2375");
+        user.setDepartment(department);
         return user;
     }
 }

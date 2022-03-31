@@ -8,7 +8,7 @@ public class User {
     private String firstName;
     private String lastName;
     private LocalDate birthday;
-    private Address address;
+    private Department department;
 
     public String getFirstName() {
         return firstName;
@@ -32,11 +32,11 @@ public class User {
     public void setBirthday(LocalDate birthday) {
         this.birthday = birthday;
     }
-    public Address getAddress() {
-        return address;
+    public Department getDepartment() {
+        return department;
     }
-    public void setAddress(Address address) {
-        this.address = address;
+    public void setDepartment(Department department) {
+        this.department = department;
     }
 
 }
