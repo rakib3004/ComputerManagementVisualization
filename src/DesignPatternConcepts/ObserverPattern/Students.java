@@ -8,7 +8,7 @@ public class Students implements GoogleClassRoomStudents {
         this.subscriberName = subscriberName;
     }
 
-    public void update(String youtuberName, String videoName) {
-        System.out.println(subscriberName + "you have to see an amazing video by" + youtuberName + "whose video's name is" + videoName);
+    public void update(String classroomName, String postDetails) {
+        System.out.println(subscriberName + "you have to see an amazing video by" + classroomName + "whose video's name is" + postDetails);
     }
 }

@@ -2,12 +2,12 @@ package DesignPatternConcepts.ObserverPattern;
 
 import java.util.ArrayList;
 
-public class Channel implements GoogleClassRoom {
+public class EducationalGoogleClassRoom implements GoogleClassRoom {
 
     private String channelName;
     private ArrayList<GoogleClassRoomStudents> googleClassRoomStudents;               // List of subscribers
 
-    public Channel(String channelName) {
+    public EducationalGoogleClassRoom(String channelName) {
         this.channelName = channelName;
         googleClassRoomStudents = new ArrayList<GoogleClassRoomStudents>();
     }
@@ -19,10 +19,10 @@ public class Channel implements GoogleClassRoom {
     }
 
     @Override
-    public void unsubscribe(Students user) {
+    public void unsubscribe(GoogleClassRoomStudents googleClassRoomStudents) {
 
-        googleClassRoomStudents.remove(user);
     }
+
 
     @Override
     public void notifyObservers(String videoName) {
@@ -30,7 +30,7 @@ public class Channel implements GoogleClassRoom {
             googleClassRoomStudents.update(channelName, videoName);
     }
 
-    public void videoUpload(String videoName) {
+    public void postUploaded(String videoName) {
         System.out.println(channelName + "has uploaded" + videoName + "video on his channel");
         notifyObservers(videoName);
     }
