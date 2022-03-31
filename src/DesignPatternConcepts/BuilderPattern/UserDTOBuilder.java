@@ -8,7 +8,7 @@ public interface UserDTOBuilder {
 
     UserDTOBuilder withLastName(String lname);
 
-    UserDTOBuilder withBirthday(LocalDate date);
+    UserDTOBuilder withSession(String session);
 
     UserDTOBuilder withDepartment(Department department);
 

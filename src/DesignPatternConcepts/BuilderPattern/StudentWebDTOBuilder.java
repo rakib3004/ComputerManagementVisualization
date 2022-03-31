@@ -8,7 +8,7 @@ public class StudentWebDTOBuilder implements UserDTOBuilder {
 
     private String firstName;
     private String lastName;
-    private String age;
+    private String session;
     private String address;
     private StudentWebDTO dto;
 
@@ -24,10 +24,8 @@ public class StudentWebDTOBuilder implements UserDTOBuilder {
         return this;
     }
 
-    @Override
-    public UserDTOBuilder withBirthday(LocalDate date) {
-        Period ageInYears = Period.between(date, LocalDate.now());
-        age = Integer.toString(ageInYears.getYears());
+    public UserDTOBuilder withSession(String session) {
+        this.session =session;
         return this;
     }
 
@@ -40,7 +38,7 @@ public class StudentWebDTOBuilder implements UserDTOBuilder {
 
     @Override
     public UserDTO build() {
-        dto = new StudentWebDTO(firstName+ " "+lastName, address, age);
+        dto = new StudentWebDTO(firstName+ " "+lastName, address, session);
         return dto;
     }
 

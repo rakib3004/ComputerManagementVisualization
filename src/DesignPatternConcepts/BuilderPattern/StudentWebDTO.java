@@ -6,12 +6,12 @@ public class StudentWebDTO implements UserDTO {
 
     private String address;
 
-    private String age;
+    private String session;
 
-    public StudentWebDTO(String name, String address, String age) {
+    public StudentWebDTO(String name, String address, String session) {
         this.name = name;
         this.address = address;
-        this.age = age;
+        this.session = session;
     }
 
     public String getName() {
@@ -22,13 +22,13 @@ public class StudentWebDTO implements UserDTO {
         return address;
     }
 
-    public String getAge() {
-        return age;
+    public String getSession() {
+        return session;
     }
 
     @Override
     public String toString() {
-        return "name=" + name + "\nage=" + age + "\naddress=" + address ;
+        return "name=" + name + "\nage=" + session + "\naddress=" + address ;
     }
 
 

@@ -2,9 +2,10 @@ package DesignPatternConcepts.BuilderPattern;
 
 public interface UserDTO {
 
-    String getName();
+    public String getName();
 
-    String getAddress();
+    public String getAddress();
 
-    String getAge();
+    public String getSession();
+
 }

@@ -16,14 +16,14 @@ public class Main {
 
     private static UserDTO directBuild(UserDTOBuilder builder, Student student) {
         return builder.withFirstName(student.getFirstName()).withLastName(student.getLastName())
-                .withDepartment(student.setDepartment();)
-                .withBirthday(student.getDepartment())
+                .withDepartment(student.getDepartment())
+                .withSession(student.getSession())
                 .build();
     }
 
     public static Student createUser() {
         Student student = new Student();
-        student.setBirthday(LocalDate.of(1979, 07, 6));
+        student.setAddress("Dhaka");
         student.setFirstName("Pedram");
         student.setLastName("Karevan");
         Department department = new Department();
