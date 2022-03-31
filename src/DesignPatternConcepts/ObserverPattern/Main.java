@@ -16,13 +16,13 @@ public class Main {
         webTechnology.subscribe(Rahat);
         webTechnology.subscribe(Khairul);
 
-        System.out.println("\nChannel-1 and Channel-2 Uploaded first video ");
+        System.out.println("\nDay 1 Announcements: ");
         designPattern.postUploaded("Code Smells");
         webTechnology.postUploaded("Angular Framework");
         designPattern.unsubscribe(Rakib);
         webTechnology.unsubscribe(Khairul);
 
-        System.out.println("\nChannel-1 and Channel-2 Uploaded 2nd video ");
+        System.out.println("\nDay 2 Announcements: ");
         designPattern.postUploaded("Structural Design Pattern");
         webTechnology.postUploaded(".NET Framework");
 
