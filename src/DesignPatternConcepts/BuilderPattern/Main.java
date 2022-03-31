@@ -1,14 +1,11 @@
 package DesignPatternConcepts.BuilderPattern;
 
-import java.time.LocalDate;
 
-//This is our client which also works as "director"
 public class Main {
 
     public static void main(String[] args) {
         Student student = createUser();
         UserDTOBuilder builder = new StudentWebDTOBuilder();
-        //Client has to provide director with concrete builder
         UserDTO dto = directBuild(builder, student);
         System.out.println(dto);
     }
