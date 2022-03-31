@@ -10,7 +10,7 @@ public interface UserDTOBuilder {
 
     UserDTOBuilder withBirthday(LocalDate date);
 
-    UserDTOBuilder withAddress(Address address);
+    UserDTOBuilder withDepartment(Department department);
 
     UserDTO build();
 

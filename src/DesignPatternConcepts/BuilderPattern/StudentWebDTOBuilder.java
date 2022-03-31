@@ -4,13 +4,13 @@ package DesignPatternConcepts.BuilderPattern;
 import java.time.LocalDate;
 import java.time.Period;
 
-public class UserWebDTOBuilder implements UserDTOBuilder {
+public class StudentWebDTOBuilder implements UserDTOBuilder {
 
     private String firstName;
     private String lastName;
     private String age;
     private String address;
-    private UserWebDTO dto;
+    private StudentWebDTO dto;
 
     @Override
     public UserDTOBuilder withFirstName(String fname) {
@@ -31,16 +31,16 @@ public class UserWebDTOBuilder implements UserDTOBuilder {
         return this;
     }
 
-    @Override
-    public UserDTOBuilder withAddress(Address address) {
-        this.address = address.getHouseNumber() +", " + address.getStreet()
-                +"\n" + address.getCity() +"\n"+address.getState()+" "+address.getZipcode();
+
+    public UserDTOBuilder withDepartment(Department department) {
+        this.address = department.getDepartmentAddress() +", " + department.getDepartmentAddress()
+                +"\n" + department.getTotalClassNumber() +"\n"+department.getDepartmentDegreeName()+" "+department.getDepartmentAddress();
         return this;
     }
 
     @Override
     public UserDTO build() {
-        dto = new UserWebDTO(firstName+ " "+lastName, address, age);
+        dto = new StudentWebDTO(firstName+ " "+lastName, address, age);
         return dto;
     }
 

@@ -1,6 +1,6 @@
 package DesignPatternConcepts.BuilderPattern;
 
-public class UserWebDTO implements UserDTO {
+public class StudentWebDTO implements UserDTO {
 
     private String name;
 
@@ -8,7 +8,7 @@ public class UserWebDTO implements UserDTO {
 
     private String age;
 
-    public UserWebDTO(String name, String address, String age) {
+    public StudentWebDTO(String name, String address, String age) {
         this.name = name;
         this.address = address;
         this.age = age;
