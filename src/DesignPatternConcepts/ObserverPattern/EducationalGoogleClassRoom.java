@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 public class EducationalGoogleClassRoom implements GoogleClassRoom {
 
-    private String channelName;
+    private String classroomName;
     private ArrayList<GoogleClassRoomStudents> googleClassRoomStudents;               // List of subscribers
 
-    public EducationalGoogleClassRoom(String channelName) {
-        this.channelName = channelName;
+    public EducationalGoogleClassRoom(String classroomName) {
+        this.classroomName = classroomName;
         googleClassRoomStudents = new ArrayList<GoogleClassRoomStudents>();
     }
 
@@ -27,11 +27,11 @@ public class EducationalGoogleClassRoom implements GoogleClassRoom {
     @Override
     public void notifyObservers(String videoName) {
         for (GoogleClassRoomStudents googleClassRoomStudents : googleClassRoomStudents)
-            googleClassRoomStudents.update(channelName, videoName);
+            googleClassRoomStudents.update(classroomName, videoName);
     }
 
     public void postUploaded(String videoName) {
-        System.out.println(channelName + "has uploaded" + videoName + "video on his channel");
+        System.out.println(classroomName + "has uploaded" + videoName + "video on his channel");
         notifyObservers(videoName);
     }
 }

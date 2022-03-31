@@ -9,6 +9,6 @@ public class Students implements GoogleClassRoomStudents {
     }
 
     public void update(String classroomName, String postDetails) {
-        System.out.println(subscriberName + "you have to see an amazing video by" + classroomName + "whose video's name is" + postDetails);
+        System.out.println(subscriberName + ", there is a post for you from" + classroomName + "Here is the details" + postDetails);
     }
 }
