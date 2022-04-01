@@ -42,4 +42,9 @@ public class DepartmentBuilder {
         return this;
 
     }
+
+    public Department getDepartmentDetails(){
+        return new Department(departmentName,departmentBuildingName,
+                departmentAddress,departmentDegreeName,totalClassNumber);
+    }
 }
