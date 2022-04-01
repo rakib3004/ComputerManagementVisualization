@@ -13,23 +13,33 @@ public class DepartmentBuilder {
 
     private String totalClassNumber;
 
-    public void setDepartmentName(String departmentName) {
+    public DepartmentBuilder setDepartmentName(String departmentName) {
         this.departmentName = departmentName;
+        return this;
+
     }
 
-    public void setDepartmentBuildingName(String departmentBuildingName) {
+    public DepartmentBuilder setDepartmentBuildingName(String departmentBuildingName) {
         this.departmentBuildingName = departmentBuildingName;
+        return this;
+
     }
 
-    public void setDepartmentAddress(String departmentAddress) {
+    public DepartmentBuilder setDepartmentAddress(String departmentAddress) {
         this.departmentAddress = departmentAddress;
+        return this;
+
     }
 
-    public void setDepartmentDegreeName(String departmentDegreeName) {
+    public DepartmentBuilder setDepartmentDegreeName(String departmentDegreeName) {
         this.departmentDegreeName = departmentDegreeName;
+        return this;
+
     }
 
-    public void setTotalClassNumber(String totalClassNumber) {
+    public DepartmentBuilder setTotalClassNumber(String totalClassNumber) {
         this.totalClassNumber = totalClassNumber;
+        return this;
+
     }
 }
