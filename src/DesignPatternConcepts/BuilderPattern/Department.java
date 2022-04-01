@@ -65,11 +65,14 @@ public class Department {
         this.totalClassNumber = totalClassNumber;
     }
 
-
-
-
-
-
-
-
+    @Override
+    public String toString() {
+        return "Department{" +
+                "departmentName='" + departmentName + '\'' +
+                ", departmentBuildingName='" + departmentBuildingName + '\'' +
+                ", departmentAddress='" + departmentAddress + '\'' +
+                ", departmentDegreeName='" + departmentDegreeName + '\'' +
+                ", totalClassNumber='" + totalClassNumber + '\'' +
+                '}';
+    }
 }
