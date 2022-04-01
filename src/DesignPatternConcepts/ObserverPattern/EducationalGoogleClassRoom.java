@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class EducationalGoogleClassRoom implements GoogleClassRoom {
 
     private String classroomName;
-    private ArrayList<Students> students;               // List of subscribers
+    private ArrayList<Students> students;
 
     public EducationalGoogleClassRoom(String classroomName) {
         this.classroomName = classroomName;

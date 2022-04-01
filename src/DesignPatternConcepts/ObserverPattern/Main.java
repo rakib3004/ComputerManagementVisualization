@@ -16,6 +16,8 @@ public class Main {
         designPattern.subscribe(bsse1116);
         webTechnology.subscribe(bsse1110);
         webTechnology.subscribe(bsse1109);
+        designPattern.subscribe(bsse1101);
+        webTechnology.subscribe(bsse1101);
 
         System.out.println("\nDay 1 Announcements: ");
         designPattern.postUploaded("Code Smells");
