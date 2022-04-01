@@ -6,21 +6,22 @@ public class Main {
         EducationalGoogleClassRoom designPattern = new EducationalGoogleClassRoom("Design Pattern");
         EducationalGoogleClassRoom webTechnology = new EducationalGoogleClassRoom("Web Technology");
 
-        Students Muktar = new Students(" Muktar ");
-        Students Rakib = new Students(" Rakib ");
-        Students Rahat = new Students(" Rahat ");
-        Students Khairul = new Students(" Khairul ");
+        GoogleClassRoomStudents bsse1129 = new GoogleClassRoomStudents("BSSE 1129");
+        GoogleClassRoomStudents bsse1101 = new GoogleClassRoomStudents("BSSE 1101");
+        GoogleClassRoomStudents bsse1116 = new GoogleClassRoomStudents(" BSSE 1116");
+        GoogleClassRoomStudents bsse1110 = new GoogleClassRoomStudents(" BSSE 1110");
+        GoogleClassRoomStudents bsse1109 = new GoogleClassRoomStudents(" BSSE 1109");
 
-        designPattern.subscribe(Muktar);
-        designPattern.subscribe(Rakib);
-        webTechnology.subscribe(Rahat);
-        webTechnology.subscribe(Khairul);
+        designPattern.subscribe(bsse1129);
+        designPattern.subscribe(bsse1116);
+        webTechnology.subscribe(bsse1110);
+        webTechnology.subscribe(bsse1109);
 
         System.out.println("\nDay 1 Announcements: ");
         designPattern.postUploaded("Code Smells");
         webTechnology.postUploaded("Angular Framework");
-        designPattern.unsubscribe(Rakib);
-        webTechnology.unsubscribe(Khairul);
+        designPattern.unsubscribe(bsse1116);
+        webTechnology.unsubscribe(bsse1109);
 
         System.out.println("\nDay 2 Announcements: ");
         designPattern.postUploaded("Structural Design Pattern");
