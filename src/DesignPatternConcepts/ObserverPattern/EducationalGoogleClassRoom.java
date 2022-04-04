@@ -10,6 +10,7 @@ public class EducationalGoogleClassRoom implements GoogleClassRoom {
     public EducationalGoogleClassRoom(String classroomName) {
         this.classroomName = classroomName;
         students = new ArrayList<Students>();
+
     }
 
     @Override
@@ -20,7 +21,7 @@ public class EducationalGoogleClassRoom implements GoogleClassRoom {
 
     @Override
     public void unsubscribe(Students students) {
-
+        this.students.remove(students);
     }
 
 

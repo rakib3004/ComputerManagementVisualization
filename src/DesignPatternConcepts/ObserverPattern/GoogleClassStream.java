@@ -1,6 +1,6 @@
 package DesignPatternConcepts.ObserverPattern;
 
-public class Main {
+public class GoogleClassStream {
     public static void main(String args[]){
 
         EducationalGoogleClassRoom designPattern = new EducationalGoogleClassRoom("Design Pattern");
