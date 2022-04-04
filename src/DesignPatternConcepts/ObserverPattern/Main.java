@@ -6,18 +6,12 @@ public class Main {
         EducationalGoogleClassRoom designPattern = new EducationalGoogleClassRoom("Design Pattern");
         EducationalGoogleClassRoom webTechnology = new EducationalGoogleClassRoom("Web Technology");
 
-<<<<<<< HEAD
-        Students Muktar = new Students(" Muktar");
-        Students Rakib = new Students(" Rakib");
-        Students Rahat = new Students(" Rahat");
-        Students Khairul = new Students(" Khairul");
-=======
+
         GoogleClassRoomStudents bsse1129 = new GoogleClassRoomStudents("BSSE 1129");
         GoogleClassRoomStudents bsse1101 = new GoogleClassRoomStudents("BSSE 1101");
         GoogleClassRoomStudents bsse1116 = new GoogleClassRoomStudents(" BSSE 1116");
         GoogleClassRoomStudents bsse1110 = new GoogleClassRoomStudents(" BSSE 1110");
         GoogleClassRoomStudents bsse1109 = new GoogleClassRoomStudents(" BSSE 1109");
->>>>>>> bfdd7eb490c7b1c632cdd5b762e9119c108f5ea9
 
         designPattern.subscribe(bsse1129);
         designPattern.subscribe(bsse1116);
@@ -35,6 +29,8 @@ public class Main {
         System.out.println("\nDay 2 Annoucements: ");
         designPattern.postUploaded("Structural Design Pattern");
         webTechnology.postUploaded(".NET Framework");
+
+
 
     }
 }
