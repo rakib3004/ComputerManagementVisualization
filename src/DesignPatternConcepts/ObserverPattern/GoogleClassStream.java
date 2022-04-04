@@ -5,19 +5,22 @@ import java.util.ArrayList;
 public class GoogleClassStream {
     public static void main(String args[]){
 
-        EducationalGoogleClassRoom designPattern = new EducationalGoogleClassRoom("Design Pattern");
-        EducationalGoogleClassRoom webTechnology = new EducationalGoogleClassRoom("Web Technology");
-        EducationalGoogleClassRoom databaseManagementSystemII = new EducationalGoogleClassRoom("Database Management System II");
-        EducationalGoogleClassRoom professionalEthics = new EducationalGoogleClassRoom("Professional Ethics");
-        EducationalGoogleClassRoom softwareProjectLabII = new EducationalGoogleClassRoom("Software Project Lab II");
-        EducationalGoogleClassRoom businessCommunications = new EducationalGoogleClassRoom("Business Communications");
 
-        ArrayList<EducationalGoogleClassRoom> educationalGoogleClassRooms = new ArrayList<>();
-        educationalGoogleClassRooms.add(designPattern);
-        educationalGoogleClassRooms.add(designPattern);
+        ArrayList<EducationalGoogleClassRoom> educationalGoogleClassRooms = initEducationalClassRoom();
+
+        System.out.println("\nDay 1 Announcements: ");
+        designPattern.postUploaded("Code Smells");
+        webTechnology.postUploaded("Angular Framework");
 
 
+        System.out.println("\nDay 2 Announcements: ");
+        designPattern.postUploaded("Structural Design Pattern");
+        webTechnology.postUploaded(".NET Framework");
 
+
+    }
+
+    public ArrayList<GoogleClassRoomStudents> initGoogleClassRoomStudents(){
         GoogleClassRoomStudents bsse1101 = new GoogleClassRoomStudents("BSSE 1101");
         GoogleClassRoomStudents bsse1102 = new GoogleClassRoomStudents("BSSE 1102");
         GoogleClassRoomStudents bsse1103 = new GoogleClassRoomStudents("BSSE 1103");
@@ -57,6 +60,7 @@ public class GoogleClassStream {
         GoogleClassRoomStudents bsse1129 = new GoogleClassRoomStudents("BSSE 1129");
         GoogleClassRoomStudents bsse1130 = new GoogleClassRoomStudents("BSSE 1130");
 
+
         ArrayList<GoogleClassRoomStudents> googleClassRoomStudents = new ArrayList<>();
 
         googleClassRoomStudents.add(bsse1101);
@@ -90,25 +94,25 @@ public class GoogleClassStream {
         googleClassRoomStudents.add(bsse1129);
         googleClassRoomStudents.add(bsse1130);
 
+        return googleClassRoomStudents;
+    }
 
-        designPattern.subscribe(bsse1129);
-        designPattern.subscribe(bsse1114);
-        webTechnology.subscribe(bsse1110);
-        webTechnology.subscribe(bsse1109);
-        designPattern.subscribe(bsse1101);
-        webTechnology.subscribe(bsse1101);
+    public ArrayList<EducationalGoogleClassRoom> initEducationalClassRoom(){
 
-        System.out.println("\nDay 1 Announcements: ");
-        designPattern.postUploaded("Code Smells");
-        webTechnology.postUploaded("Angular Framework");
-        designPattern.unsubscribe(bsse1114);
-        webTechnology.unsubscribe(bsse1109);
+        EducationalGoogleClassRoom designPattern = new EducationalGoogleClassRoom("Design Pattern");
+        EducationalGoogleClassRoom webTechnology = new EducationalGoogleClassRoom("Web Technology");
+        EducationalGoogleClassRoom databaseManagementSystemII = new EducationalGoogleClassRoom("Database Management System II");
+        EducationalGoogleClassRoom professionalEthics = new EducationalGoogleClassRoom("Professional Ethics");
+        EducationalGoogleClassRoom softwareProjectLabII = new EducationalGoogleClassRoom("Software Project Lab II");
+        EducationalGoogleClassRoom businessCommunications = new EducationalGoogleClassRoom("Business Communications");
 
-        System.out.println("\nDay 2 Announcements: ");
-        designPattern.postUploaded("Structural Design Pattern");
-        webTechnology.postUploaded(".NET Framework");
-
-
-
+        ArrayList<EducationalGoogleClassRoom> educationalGoogleClassRooms = new ArrayList<>();
+        educationalGoogleClassRooms.add(designPattern);
+        educationalGoogleClassRooms.add(webTechnology);
+        educationalGoogleClassRooms.add(databaseManagementSystemII);
+        educationalGoogleClassRooms.add(professionalEthics);
+        educationalGoogleClassRooms.add(softwareProjectLabII);
+        educationalGoogleClassRooms.add(businessCommunications);
+        return educationalGoogleClassRooms;
     }
 }
