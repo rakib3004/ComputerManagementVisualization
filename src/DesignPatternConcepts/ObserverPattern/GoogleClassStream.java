@@ -15,7 +15,7 @@ public class GoogleClassStream {
         lastClassIndex=5;
         firstStudentIndex=0;
         lastStudentIndex=29;
-        int steamLength=120;
+        int steamLength=30;
        for(int i=0; i<steamLength;i++){
 
 
@@ -37,6 +37,11 @@ public class GoogleClassStream {
        for(int i=0;i<=lastClassIndex;i++){
            educationalGoogleClassRooms.get(i).postUploaded(dayOne.get(i));
        }
+
+
+        System.out.println("-----------------------------------------------------------------------");
+        System.out.println("After Semester Ended There Are Many Students Are Out Of Class: ");
+        System.out.println("-----------------------------------------------------------------------");
 
 
     }
