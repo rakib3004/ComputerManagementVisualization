@@ -9,9 +9,9 @@ public class GoogleClassStream {
 
         GoogleClassRoomStudents bsse1129 = new GoogleClassRoomStudents("BSSE 1129");
         GoogleClassRoomStudents bsse1101 = new GoogleClassRoomStudents("BSSE 1101");
-        GoogleClassRoomStudents bsse1116 = new GoogleClassRoomStudents(" BSSE 1116");
-        GoogleClassRoomStudents bsse1110 = new GoogleClassRoomStudents(" BSSE 1110");
-        GoogleClassRoomStudents bsse1109 = new GoogleClassRoomStudents(" BSSE 1109");
+        GoogleClassRoomStudents bsse1116 = new GoogleClassRoomStudents("BSSE 1116");
+        GoogleClassRoomStudents bsse1110 = new GoogleClassRoomStudents("BSSE 1110");
+        GoogleClassRoomStudents bsse1109 = new GoogleClassRoomStudents("BSSE 1109");
 
         designPattern.subscribe(bsse1129);
         designPattern.subscribe(bsse1116);
@@ -26,7 +26,7 @@ public class GoogleClassStream {
         designPattern.unsubscribe(bsse1116);
         webTechnology.unsubscribe(bsse1109);
 
-        System.out.println("\nDay 2 Annoucements: ");
+        System.out.println("\nDay 2 Announcements: ");
         designPattern.postUploaded("Structural Design Pattern");
         webTechnology.postUploaded(".NET Framework");
 

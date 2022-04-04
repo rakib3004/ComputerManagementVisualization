@@ -26,13 +26,13 @@ public class EducationalGoogleClassRoom implements GoogleClassRoom {
 
 
     @Override
-    public void notifyObservers(String videoName) {
+    public void notifyObservers(String postName) {
         for (Students students : this.students)
-            students.update(classroomName, videoName);
+            students.update(classroomName, postName);
     }
 
-    public void postUploaded(String videoName) {
-        System.out.println(classroomName + "has uploaded" + videoName + "video on his channel");
-        notifyObservers(videoName);
+    public void postUploaded(String postName) {
+        System.out.println(classroomName + " has posted " + postName + " post on this classroom");
+        notifyObservers(postName);
     }
 }
