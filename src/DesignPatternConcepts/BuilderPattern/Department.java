@@ -12,6 +12,19 @@ public class Department {
 
     private String totalClassNumber;
 
+
+    public Department() {
+    }
+
+
+    public Department(String departmentName, String departmentBuildingName, String departmentAddress, String departmentDegreeName, String totalClassNumber) {
+        this.departmentName = departmentName;
+        this.departmentBuildingName = departmentBuildingName;
+        this.departmentAddress = departmentAddress;
+        this.departmentDegreeName = departmentDegreeName;
+        this.totalClassNumber = totalClassNumber;
+    }
+
     public String getDepartmentName() {
         return departmentName;
     }
@@ -52,11 +65,14 @@ public class Department {
         this.totalClassNumber = totalClassNumber;
     }
 
-
-
-
-
-
-
-
+    @Override
+    public String toString() {
+        return "Department{" +
+                "departmentName='" + departmentName + '\'' +
+                ", departmentBuildingName='" + departmentBuildingName + '\'' +
+                ", departmentAddress='" + departmentAddress + '\'' +
+                ", departmentDegreeName='" + departmentDegreeName + '\'' +
+                ", totalClassNumber='" + totalClassNumber + '\'' +
+                '}';
+    }
 }

@@ -5,29 +5,29 @@ import java.util.ArrayList;
 public class EducationalGoogleClassRoom implements GoogleClassRoom {
 
     private String classroomName;
-    private ArrayList<GoogleClassRoomStudents> googleClassRoomStudents;               // List of subscribers
+    private ArrayList<Students> students;
 
     public EducationalGoogleClassRoom(String classroomName) {
         this.classroomName = classroomName;
-        googleClassRoomStudents = new ArrayList<GoogleClassRoomStudents>();
+        students = new ArrayList<Students>();
     }
 
     @Override
-    public void subscribe(GoogleClassRoomStudents googleClassRoomStudents) {
+    public void subscribe(Students students) {
 
-        this.googleClassRoomStudents.add(googleClassRoomStudents);
+        this.students.add(students);
     }
 
     @Override
-    public void unsubscribe(GoogleClassRoomStudents googleClassRoomStudents) {
+    public void unsubscribe(Students students) {
 
     }
 
 
     @Override
     public void notifyObservers(String videoName) {
-        for (GoogleClassRoomStudents googleClassRoomStudents : googleClassRoomStudents)
-            googleClassRoomStudents.update(classroomName, videoName);
+        for (Students students : this.students)
+            students.update(classroomName, videoName);
     }
 
     public void postUploaded(String videoName) {
