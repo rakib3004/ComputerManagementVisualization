@@ -14,25 +14,25 @@ public class EducationalGoogleClassRoom implements GoogleClassRoom {
     }
 
     @Override
-    public void subscribe(Students students) {
+    public void addToClassRoom(Students students) {
 
         this.students.add(students);
     }
 
     @Override
-    public void unsubscribe(Students students) {
+    public void leftFromClassRoom(Students students) {
         this.students.remove(students);
     }
 
 
     @Override
-    public void notifyObservers(String postName) {
+    public void notifyStudents(String postName) {
         for (Students students : this.students)
             students.update(classroomName, postName);
     }
 
     public void postUploaded(String postName) {
         System.out.println(classroomName + " has posted " + postName + " post on this classroom");
-        notifyObservers(postName);
+        notifyStudents(postName);
     }
 }
