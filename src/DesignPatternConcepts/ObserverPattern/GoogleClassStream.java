@@ -26,30 +26,30 @@ public class GoogleClassStream {
         GoogleClassRoomStudents bsse1110 = new GoogleClassRoomStudents("BSSE 1110");
 
         GoogleClassRoomStudents bsse1111 = new GoogleClassRoomStudents("BSSE 1111");
-        GoogleClassRoomStudents bsse1111 = new GoogleClassRoomStudents("BSSE 1112");
-        GoogleClassRoomStudents bsse1111 = new GoogleClassRoomStudents("BSSE 1113");
-        GoogleClassRoomStudents bsse1111 = new GoogleClassRoomStudents("BSSE 1114");
-        GoogleClassRoomStudents bsse1111 = new GoogleClassRoomStudents("BSSE 1115");
+        GoogleClassRoomStudents bsse1112 = new GoogleClassRoomStudents("BSSE 1112");
+        GoogleClassRoomStudents bsse1113 = new GoogleClassRoomStudents("BSSE 1113");
+        GoogleClassRoomStudents bsse1114 = new GoogleClassRoomStudents("BSSE 1114");
+        GoogleClassRoomStudents bsse1115 = new GoogleClassRoomStudents("BSSE 1115");
 
 
-        GoogleClassRoomStudents bsse1111 = new GoogleClassRoomStudents("BSSE 1116");
-        GoogleClassRoomStudents bsse1111 = new GoogleClassRoomStudents("BSSE 1117");
-        GoogleClassRoomStudents bsse1111 = new GoogleClassRoomStudents("BSSE 1118");
-        GoogleClassRoomStudents bsse1111 = new GoogleClassRoomStudents("BSSE 1119");
-        GoogleClassRoomStudents bsse1111 = new GoogleClassRoomStudents("BSSE 1120");
+        GoogleClassRoomStudents bsse1116 = new GoogleClassRoomStudents("BSSE 1116");
+        GoogleClassRoomStudents bsse1117 = new GoogleClassRoomStudents("BSSE 1117");
+        GoogleClassRoomStudents bsse1118 = new GoogleClassRoomStudents("BSSE 1118");
+        GoogleClassRoomStudents bsse1119 = new GoogleClassRoomStudents("BSSE 1119");
+        GoogleClassRoomStudents bsse1120 = new GoogleClassRoomStudents("BSSE 1120");
 
-        GoogleClassRoomStudents bsse1116 = new GoogleClassRoomStudents("BSSE 1121");
-        GoogleClassRoomStudents bsse1105 = new GoogleClassRoomStudents("BSSE 1122");
-        GoogleClassRoomStudents bsse1128 = new GoogleClassRoomStudents("BSSE 1123");
-        GoogleClassRoomStudents bsse1125 = new GoogleClassRoomStudents("BSSE 1125");
-        GoogleClassRoomStudents bsse1115 = new GoogleClassRoomStudents("BSSE 1125");
+        GoogleClassRoomStudents bsse1120 = new GoogleClassRoomStudents("BSSE 1121");
+        GoogleClassRoomStudents bsse1120 = new GoogleClassRoomStudents("BSSE 1122");
+        GoogleClassRoomStudents bsse1120 = new GoogleClassRoomStudents("BSSE 1123");
+        GoogleClassRoomStudents bsse1120 = new GoogleClassRoomStudents("BSSE 1125");
+        GoogleClassRoomStudents bsse1120 = new GoogleClassRoomStudents("BSSE 1125");
 
 
-        GoogleClassRoomStudents bsse1129 = new GoogleClassRoomStudents("BSSE 1126");
-        GoogleClassRoomStudents bsse1101 = new GoogleClassRoomStudents("BSSE 1127");
-        GoogleClassRoomStudents bsse1114 = new GoogleClassRoomStudents("BSSE 1128");
-        GoogleClassRoomStudents bsse1110 = new GoogleClassRoomStudents("BSSE 1129");
-        GoogleClassRoomStudents bsse1109 = new GoogleClassRoomStudents("BSSE 1130");
+        GoogleClassRoomStudents bsse1120 = new GoogleClassRoomStudents("BSSE 1126");
+        GoogleClassRoomStudents bsse1120 = new GoogleClassRoomStudents("BSSE 1127");
+        GoogleClassRoomStudents bsse1120 = new GoogleClassRoomStudents("BSSE 1128");
+        GoogleClassRoomStudents bsse1120 = new GoogleClassRoomStudents("BSSE 1129");
+        GoogleClassRoomStudents bsse1120 = new GoogleClassRoomStudents("BSSE 1130");
 
 
 
