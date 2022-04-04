@@ -23,7 +23,7 @@ public class GoogleClassStream {
            int theStudentIndex=(int)((Math.random() * (lastStudentIndex - firstStudentIndex)) + firstStudentIndex);
            educationalGoogleClassRooms.get(theClassIndex).addToClassRoom(googleClassRoomStudents.get(theStudentIndex));
        }
-        ArrayList<String> dayOne = new ArrayList<>();
+       ArrayList<String> dayOne = new ArrayList<>();
        dayOne.add("Builder Pattern");
        dayOne.add(".NET Framework");
        dayOne.add("File System");
@@ -33,6 +33,8 @@ public class GoogleClassStream {
 
        for(int i=0;i<=lastClassIndex;i++){
            educationalGoogleClassRooms.get(i).postUploaded(dayOne.get(i));
+           System.out.println();
+           System.out.println();
        }
 
 
@@ -45,10 +47,24 @@ public class GoogleClassStream {
             int theClassIndex=(int) ((Math.random() * (lastClassIndex - firstClassIndex)) + firstClassIndex);
             int theStudentIndex=(int)((Math.random() * (lastStudentIndex - firstStudentIndex)) + firstStudentIndex);
             educationalGoogleClassRooms.get(theClassIndex).leftFromClassRoom(googleClassRoomStudents.get(theStudentIndex));
+
+
         }
 
+
+        ArrayList<String> dayTwo = new ArrayList<>();
+        dayTwo.add("Abstract Pattern");
+        dayTwo.add("Angular Framework");
+        dayTwo.add("Decision Tree");
+        dayTwo.add("Software Privacy");
+        dayTwo.add("Mid Term Check Up");
+        dayTwo.add("Business Report Writing");
+
+
         for(int i=0;i<=lastClassIndex;i++){
-            educationalGoogleClassRooms.get(i).postUploaded(dayOne.get(i));
+            educationalGoogleClassRooms.get(i).postUploaded(dayTwo.get(i));
+            System.out.println();
+            System.out.println();
         }
     }
 

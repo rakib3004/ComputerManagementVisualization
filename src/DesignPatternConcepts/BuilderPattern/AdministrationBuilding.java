@@ -3,11 +3,12 @@ package DesignPatternConcepts.BuilderPattern;
 public class AdministrationBuilding {
     public static void main(String[] args) {
 
-        Department department
-                = new DepartmentBuilder().setDepartmentName("Institute of Information Technology").setDepartmentBuildingName("IIT Building").setDepartmentAddress("Shawrawardi Road, Dhaka-1229").setTotalClassNumber("9").setDepartmentDegreeName("BSSE").getDepartmentDetails();
+        Department softwareEngineering
+                = new DepartmentBuilder().setDepartmentName("Information Technology").setDepartmentBuildingName("Computer Centre").setDepartmentAddress("Mokaram Educational Area, University of Dhaka, Dhaka -1000").setTotalClassNumber("5").setDepartmentDegreeName("BIT").getDepartmentDetails();
+        System.out.println(softwareEngineering.toString());
 
 
-        System.out.println(department);
+        System.out.println(softwareEngineering.toString());
 
     }
 }
