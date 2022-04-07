@@ -10,22 +10,20 @@ public class Match {
         int fastBowlersNumber;
         int bowlerTypeNumber;
 
-// initialize data
-         OverNumbers=50;
-         spinBowlersNumber=4;
-         fastMediumBowlersNumber=2;
-         fastBowlersNumber=3;
-         bowlerTypeNumber=3;
+        // initialize data
+        OverNumbers = 50;
+        spinBowlersNumber = 4;
+        fastMediumBowlersNumber = 2;
+        fastBowlersNumber = 3;
+        bowlerTypeNumber = 3;
 
-         // classify every over update in UpdateScore Class
+        // classify every over update in UpdateScore Class
 
         ScoreUpdate scoreUpdate = new ScoreUpdate();
 
+        // spinners listing
 
-
-         // spinners listing
-
-        SpinBowler [] spinBowlers = new SpinBowler[spinBowlersNumber];
+        SpinBowler[] spinBowlers = new SpinBowler[spinBowlersNumber];
         spinBowlers[0] = new SpinBowler("Shakib Al Hasan");
         spinBowlers[1] = new SpinBowler("Mahmudullah Riyad");
         spinBowlers[2] = new SpinBowler("Mehedi Miraz");
@@ -33,58 +31,52 @@ public class Match {
 
         // medium fast bowlers listing
 
-        FastMediumBowler [] fastMediumBowlers = new FastMediumBowler[fastMediumBowlersNumber];
+        FastMediumBowler[] fastMediumBowlers = new FastMediumBowler[fastMediumBowlersNumber];
 
         fastMediumBowlers[0] = new FastMediumBowler("Mohammad Saifuddin");
         fastMediumBowlers[1] = new FastMediumBowler("Sauyma Sarkar");
 
         // fast bowlers listing
 
-
-        FastBowler [] fastBowlers = new FastBowler[fastBowlersNumber];
+        FastBowler[] fastBowlers = new FastBowler[fastBowlersNumber];
 
         fastBowlers[0] = new FastBowler("Mustafizur Rahman");
         fastBowlers[1] = new FastBowler("Rubel Hossain");
         fastBowlers[2] = new FastBowler("Taskin Ahmed");
 
-        int iterator=0;
-        int jterator=0;
-
+        int iterator = 0;
+        int jterator = 0;
 
         // Start Over
 
-        for(iterator=0;iterator<OverNumbers;iterator++){
+        for (iterator = 0; iterator < OverNumbers; iterator++) {
 
-            int bowlerType = (int) (Math.random()*bowlerTypeNumber)+1;
-            int currentBowler=0;
-            if(bowlerType==1){
-                currentBowler = (int) (Math.random()*spinBowlersNumber);
-                for(jterator=1;jterator<=6;jterator++){
+            int bowlerType = (int) (Math.random() * bowlerTypeNumber) + 1;
+            int currentBowler = 0;
+            if (bowlerType == 1) {
+                currentBowler = (int) (Math.random() * spinBowlersNumber);
+                for (jterator = 1; jterator <= 6; jterator++) {
 
-                    int ballNo = (iterator*6)+jterator;
-                    scoreUpdate.bowlingUpdate(spinBowlers[currentBowler],iterator,jterator);
-
+                    int ballNo = (iterator * 6) + jterator;
+                    scoreUpdate.bowlingUpdate(spinBowlers[currentBowler], iterator, jterator);
 
                 }
                 spinBowlers[currentBowler].totalOver++;
 
-            }
-            else  if(bowlerType==2){
-                currentBowler = (int) (Math.random()*fastMediumBowlersNumber);
-                for(jterator=1;jterator<=6;jterator++){
-                    int ballNo = (iterator*6)+jterator;
-                    scoreUpdate.bowlingUpdate(fastMediumBowlers[currentBowler],iterator,jterator);
+            } else if (bowlerType == 2) {
+                currentBowler = (int) (Math.random() * fastMediumBowlersNumber);
+                for (jterator = 1; jterator <= 6; jterator++) {
+                    int ballNo = (iterator * 6) + jterator;
+                    scoreUpdate.bowlingUpdate(fastMediumBowlers[currentBowler], iterator, jterator);
                 }
                 fastMediumBowlers[currentBowler].totalOver++;
 
-            }
-            else  if(bowlerType==3){
-                currentBowler = (int) (Math.random()*fastBowlersNumber);
-                for(jterator=1;jterator<=6;jterator++){
-                    int ballNo = (iterator*6)+jterator;
+            } else if (bowlerType == 3) {
+                currentBowler = (int) (Math.random() * fastBowlersNumber);
+                for (jterator = 1; jterator <= 6; jterator++) {
+                    int ballNo = (iterator * 6) + jterator;
 
-
-                    scoreUpdate.bowlingUpdate(fastBowlers[currentBowler],iterator,jterator);
+                    scoreUpdate.bowlingUpdate(fastBowlers[currentBowler], iterator, jterator);
 
                 }
                 fastBowlers[currentBowler].totalOver++;
@@ -93,7 +85,8 @@ public class Match {
         }
 
         BowlingAnalysis bowlingAnalysis = new BowlingAnalysis();
-        bowlingAnalysis.BowlerStatistics(spinBowlers,fastMediumBowlers,fastBowlers,spinBowlersNumber,fastMediumBowlersNumber,fastBowlersNumber);
+        bowlingAnalysis.BowlerStatistics(spinBowlers, fastMediumBowlers, fastBowlers, spinBowlersNumber,
+                fastMediumBowlersNumber, fastBowlersNumber);
 
     }
 }

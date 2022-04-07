@@ -4,10 +4,10 @@ import java.io.*;
 
 public class MatchCounterClass {
 
-    public  int getMatchNumbers(){
+    public int getMatchNumbers() {
 
         File matchFile = new File("MatchCounter.txt");
-        char [] matchNumberChar = new char[6];
+        char[] matchNumberChar = new char[6];
         try {
             FileReader fileReader = new FileReader(matchFile);
             fileReader.read(matchNumberChar);
@@ -19,16 +19,16 @@ public class MatchCounterClass {
         }
 
         int iter;
-        String matchNum="";
+        String matchNum = "";
 
-        for(iter=0;matchNumberChar[iter]!='\0'; iter++){
-            matchNum= matchNum+matchNumberChar[iter];
+        for (iter = 0; matchNumberChar[iter] != '\0'; iter++) {
+            matchNum = matchNum + matchNumberChar[iter];
         }
 
         int finalMatchNumber = Integer.parseInt(matchNum);
         finalMatchNumber++;
 
-      //  System.out.println(finalMatchNumber);
+        // System.out.println(finalMatchNumber);
 
         FileWriter fileWriter = null;
         try {
@@ -47,7 +47,7 @@ public class MatchCounterClass {
     }
 
     public static void main(String[] args) {
-       // getMatchNumbers();
+        // getMatchNumbers();
     }
 
 }
