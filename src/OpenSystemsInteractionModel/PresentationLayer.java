@@ -2,12 +2,11 @@ package OpenSystemsInteractionModel;
 
 public class PresentationLayer {
 
-
-    public void clientPresentationLayer(){
+    public void clientPresentationLayer() {
 
     }
 
-    public void serverPresentationLayer(){
+    public void serverPresentationLayer() {
 
     }
 }

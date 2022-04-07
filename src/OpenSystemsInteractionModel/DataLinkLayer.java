@@ -2,11 +2,11 @@ package OpenSystemsInteractionModel;
 
 public class DataLinkLayer {
 
-    public void clientDataLinkLayer(){
+    public void clientDataLinkLayer() {
 
     }
 
-    public void serverDataLinkLayer(){
+    public void serverDataLinkLayer() {
 
     }
 }
