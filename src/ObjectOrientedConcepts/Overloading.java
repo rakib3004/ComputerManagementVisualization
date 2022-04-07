@@ -1,6 +1,5 @@
 package ObjectOrientedConcepts;
 
-import javafx.scene.chart.NumberAxis;
 
 import java.util.Scanner;
 
