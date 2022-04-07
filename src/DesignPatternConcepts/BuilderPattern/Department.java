@@ -12,12 +12,11 @@ public class Department {
 
     private String totalClassNumber;
 
-
     public Department() {
     }
 
-
-    public Department(String departmentName, String departmentBuildingName, String departmentAddress, String departmentDegreeName, String totalClassNumber) {
+    public Department(String departmentName, String departmentBuildingName, String departmentAddress,
+            String departmentDegreeName, String totalClassNumber) {
         this.departmentName = departmentName;
         this.departmentBuildingName = departmentBuildingName;
         this.departmentAddress = departmentAddress;

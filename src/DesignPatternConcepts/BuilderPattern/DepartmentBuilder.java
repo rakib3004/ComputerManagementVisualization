@@ -2,7 +2,6 @@ package DesignPatternConcepts.BuilderPattern;
 
 public class DepartmentBuilder {
 
-
     private String departmentName;
 
     private String departmentBuildingName;
@@ -43,8 +42,8 @@ public class DepartmentBuilder {
 
     }
 
-    public Department getDepartmentDetails(){
-        return new Department(departmentName,departmentBuildingName,
-                departmentAddress,departmentDegreeName,totalClassNumber);
+    public Department getDepartmentDetails() {
+        return new Department(departmentName, departmentBuildingName,
+                departmentAddress, departmentDegreeName, totalClassNumber);
     }
 }
