@@ -6,7 +6,7 @@ public class CPU {
         InputOutputController inputOutputController = new InputOutputController();
 
         System.out.println("1.Device Driver Ready to initiate I/O");
-    //    inputOutputController.initiatesInputOutput();
+        // inputOutputController.initiatesInputOutput();
         System.out.println();
         System.out.println("CPU interrupts between instruction for checking");
         System.out.println();
@@ -14,7 +14,7 @@ public class CPU {
         transferControlToInterruptHandler();
     }
 
-    static void transferControlToInterruptHandler(){
+    static void transferControlToInterruptHandler() {
 
         System.out.println("4.CPU Receiving interrupt");
         System.out.println("Transfer control to Interrupt Handler");
@@ -22,16 +22,15 @@ public class CPU {
 
     }
 
-    static void interruptHandler(){
+    static void interruptHandler() {
         System.out.println("5.Processing Data!!!!!!");
 
     }
 
- static void resumesInterruptProcessingTask(){
-     System.out.println("6.CPU resumes!!!!");
-     System.out.println("Processing of Interrupted Data");
-     System.out.println("***********Finish***************");
+    static void resumesInterruptProcessingTask() {
+        System.out.println("6.CPU resumes!!!!");
+        System.out.println("Processing of Interrupted Data");
+        System.out.println("***********Finish***************");
 
-
- }
+    }
 }

@@ -1,27 +1,27 @@
 package Hackkerrank;
 
-class SempleDemo implements Runnable{
+class SempleDemo implements Runnable {
 
     private Thread t;
     private String threadName;
 
-    SempleDemo(String threadName){
-        this.threadName=threadName;
+    SempleDemo(String threadName) {
+        this.threadName = threadName;
     }
 
-    public void run(){
+    public void run() {
         while (true)
             System.out.println(threadName);
     }
-    public  void start(){
-        if(t==null){
-            t = new Thread(this,threadName);
+
+    public void start() {
+        if (t == null) {
+            t = new Thread(this, threadName);
             t.start();
         }
     }
 
 }
-
 
 public class TestThread {
     public static void main(String[] args) {
