@@ -3,13 +3,12 @@ package DesignPatternConcepts.ObserverPattern;
 import java.util.ArrayList;
 
 public class InitDataBase {
-    public ArrayList<GoogleClassRoomStudents> initGoogleClassRoomStudents(){
+    public ArrayList<GoogleClassRoomStudents> initGoogleClassRoomStudents() {
         GoogleClassRoomStudents bsse1101 = new GoogleClassRoomStudents("BSSE 1101");
         GoogleClassRoomStudents bsse1102 = new GoogleClassRoomStudents("BSSE 1102");
         GoogleClassRoomStudents bsse1103 = new GoogleClassRoomStudents("BSSE 1103");
         GoogleClassRoomStudents bsse1104 = new GoogleClassRoomStudents("BSSE 1104");
         GoogleClassRoomStudents bsse1105 = new GoogleClassRoomStudents("BSSE 1105");
-
 
         GoogleClassRoomStudents bsse1106 = new GoogleClassRoomStudents("BSSE 1106");
         GoogleClassRoomStudents bsse1107 = new GoogleClassRoomStudents("BSSE 1107");
@@ -23,7 +22,6 @@ public class InitDataBase {
         GoogleClassRoomStudents bsse1114 = new GoogleClassRoomStudents("BSSE 1114");
         GoogleClassRoomStudents bsse1115 = new GoogleClassRoomStudents("BSSE 1115");
 
-
         GoogleClassRoomStudents bsse1116 = new GoogleClassRoomStudents("BSSE 1116");
         GoogleClassRoomStudents bsse1117 = new GoogleClassRoomStudents("BSSE 1117");
         GoogleClassRoomStudents bsse1118 = new GoogleClassRoomStudents("BSSE 1118");
@@ -36,13 +34,11 @@ public class InitDataBase {
         GoogleClassRoomStudents bsse1124 = new GoogleClassRoomStudents("BSSE 1125");
         GoogleClassRoomStudents bsse1125 = new GoogleClassRoomStudents("BSSE 1125");
 
-
         GoogleClassRoomStudents bsse1126 = new GoogleClassRoomStudents("BSSE 1126");
         GoogleClassRoomStudents bsse1127 = new GoogleClassRoomStudents("BSSE 1127");
         GoogleClassRoomStudents bsse1128 = new GoogleClassRoomStudents("BSSE 1128");
         GoogleClassRoomStudents bsse1129 = new GoogleClassRoomStudents("BSSE 1129");
         GoogleClassRoomStudents bsse1130 = new GoogleClassRoomStudents("BSSE 1130");
-
 
         ArrayList<GoogleClassRoomStudents> googleClassRoomStudents = new ArrayList<>();
 
@@ -80,11 +76,12 @@ public class InitDataBase {
         return googleClassRoomStudents;
     }
 
-    public ArrayList<EducationalGoogleClassRoom> initEducationalClassRoom(){
+    public ArrayList<EducationalGoogleClassRoom> initEducationalClassRoom() {
 
         EducationalGoogleClassRoom designPattern = new EducationalGoogleClassRoom("Design Pattern");
         EducationalGoogleClassRoom webTechnology = new EducationalGoogleClassRoom("Web Technology");
-        EducationalGoogleClassRoom databaseManagementSystemII = new EducationalGoogleClassRoom("Database Management System II");
+        EducationalGoogleClassRoom databaseManagementSystemII = new EducationalGoogleClassRoom(
+                "Database Management System II");
         EducationalGoogleClassRoom professionalEthics = new EducationalGoogleClassRoom("Professional Ethics");
         EducationalGoogleClassRoom softwareProjectLabII = new EducationalGoogleClassRoom("Software Project Lab II");
         EducationalGoogleClassRoom businessCommunications = new EducationalGoogleClassRoom("Business Communications");

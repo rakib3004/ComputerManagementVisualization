@@ -24,7 +24,6 @@ public class EducationalGoogleClassRoom implements GoogleClassRoom {
         this.students.remove(students);
     }
 
-
     @Override
     public void notifyStudents(String postName) {
         for (Students students : this.students)

@@ -2,6 +2,7 @@ package Hackkerrank;
 
 import java.util.*;
 import java.security.*;
+
 public class DataTypeConversion {
     public static void main(String[] args) {
 
@@ -9,12 +10,11 @@ public class DataTypeConversion {
 
         try {
             Scanner in = new Scanner(System.in);
-            int n = in .nextInt();
+            int n = in.nextInt();
             in.close();
-           String s=Integer.toString(n);
+            String s = Integer.toString(n);
 
-            //Write your code here
-
+            // Write your code here
 
             if (n == Integer.parseInt(s)) {
                 System.out.println("Good job");
@@ -27,7 +27,7 @@ public class DataTypeConversion {
     }
 }
 
-//The following class will prevent you from terminating the code using exit(0)!
+// The following class will prevent you from terminating the code using exit(0)!
 class DoNotTerminate {
 
     public static class ExitTrappedException extends SecurityException {
