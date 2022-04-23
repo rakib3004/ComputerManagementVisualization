@@ -1,0 +1,8 @@
+Bread,Wine,Eggs,Meat
+Bread,Cheese,Meat,Diaper
+Cheese,Meat,Eggs,Milk,Wine
+Cheese,Meat,Eggs,Milk,Wine
+Meat,Pencil,Wine
+Eggs,Bread,Wine
+Bagel,Bread,Milk,Pencil,Diaper
+Bread,Diaper,Cheese,Milk
